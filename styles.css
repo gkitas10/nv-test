@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border: none;
+    /* background-color: #000000; */
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    color: #AAAAAA;
+    transition: .5s ease;
+}
+
+h2 {
+    margin:0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    
+    height: 44px;
+    font-size: .88rem;
+}
+
+.header__menu-wrapper {
+    width: 980px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+}
+
+.header__icon-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header__svg {
+    height: 38%;
+}
+
+.header__apple-icon, .header__glass-icon, .header__bag-icon {
+    fill: white;
+}
+
+.header__link {
+    display: flex;
+    align-items: center;
+}
+
+.submenu {
+    background-color: #111111;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+}
+
+.submenu__cont {
+    width: 980px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.submenu__title {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.submenu__link {
+    font-size: .75rem;
+    margin-left: 1.4em;
+}
+
+.submenu__btn {
+    background-color: #0071e3;
+    border: none;
+    border-radius: 12px;
+    padding: .38em .83em;
+}
+
+.main {
+    background-color: #111111;
+    
+    padding: 1.9em;
+}
+
+.hero {
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    position: relative;
+    min-height: 65vh;
+    overflow: hidden;
+    padding-top: 10em;
+}
+
+.hero__img-cont {
+    width: 55%;
+    position: absolute;
+}
+
+.main {
+    background-color: #111111;
+}
+
+.main__title {
+    font-size: 5.8rem;
+}
+
+.main__intro-info {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    margin-top: 1.9em;
+    margin-bottom: 2em;
+    padding-bottom: 8em;
+}
+
+.main__info-wrapper {
+    min-height: 65vh;
+    max-width: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__title {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.main__paragraph {
+    color:#aaa;
+    font-size: 2rem;
+    text-align: center;
+    margin:1.5em 0;
+}
+
+.main__pricing {
+    font-size: 1.5rem;
+    color: #aaa;
+    margin-bottom: .8em;
+}
+
+.main__left-side-link {
+    margin-right: 1.25em;
+}
+
+.main__link {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+/* main pics */
+/* .main__pics-grid {
+    background-color: #000000;
+} */
+
+.main__grid-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.9em;
+    height: 85vh;
+    max-height: 780px; 
+    background-color: #111111;
+    margin-bottom: 2em;
+}
+
+.main__grid-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main__img-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #000000;
+}
+
+
+.main__left-img-cont {
+    padding-top: 34em;
+    padding-left: 3.8em;
+}
+
+.main__right-img {
+    max-width: 260px;
+}
+
+.main__grid-2row {
+    display: grid;
+    grid-template-columns: .75fr 1fr;
+    height: 100vh;
+    gap: 1.9em;
+}
+
+/* .main__img-cont main__central-img {
+
+} */
+
+.main__side-info-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.main__grid-item-title {
+    font-size: 4.4rem;
+    max-width: 380px;
+}
+
+.main__grid-item-par {
+    font-size: 1.5rem;
+    color: #AAAAAA;
+    font-weight: 600;
+    max-width: 370px;
+}
+
+.main__central-img {
+    background-image:url(/assets/iphone11-mid.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-position: 50% 0%;
+}
+
+
+
+.main__img-below-cont {
+    padding-top: 14em;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.main__below-img {
+    background-image:url(/assets/camera-glass.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-position: 50% 0%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
